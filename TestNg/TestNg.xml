@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1"  >
+    <test name="bridgelabz" >
+        <groups>
+            <run>
+                <include name="Login"/>
+                <exclude name="Upload"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.bridgelabz.Annotations" />
+        </classes>
+    </test>
+</suite>
